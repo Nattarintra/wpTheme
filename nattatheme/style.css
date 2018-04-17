@@ -1,0 +1,182 @@
+/*
+Theme Name: NattaTheme
+Author: Nattarintra
+Description: This is my First DIY theme from class CMS day 1
+Version: 1.0
+License: WTFPL
+License URI: http://www.wtfpl.net/
+Text Domain: nattatheme
+*/
+
+header{
+    margin-bottom: 10px;
+}
+/* Navigation Menus */
+.site-nav ul {
+    margin: 5px;
+    padding: 5px;
+    margin-left: 80px;
+}
+
+.site-nav ul::before, .site-nav ul::after{ content: ""; display: table;}
+.site-nav ul::after{clear: both;}
+.site-nav ul {*zoom: 1;}
+
+.site-nav ul li{
+    list-style: none;
+    float: left;
+}
+
+/* Site Header Menus*/
+.site-header nav ul li{
+    margin-right: 15px;
+}
+
+.site-header nav ul li a:link,
+.site-header nav ul li a:visited{
+    display: block;
+    padding: 10px 18px;
+    border: 5px double #BBB;
+    text-decoration: none;
+}
+.site-header nav ul li a:hover{
+    background-color: #ECECEC;
+}
+.site-header nav ul li.current-menu-item a:link,
+.site-header nav ul li.current-menu-item a:visited{
+    background-color: #e0ebff;
+    color: black;
+}
+/* Search Style */
+div.hd-search{
+    /* float: right; */
+    margin-top: 3px;
+    
+    
+}
+
+div.hd-search .search-submit{
+    background-color: #e9cc57;
+    color: #fff;
+    padding: 12px 20px;
+    border: 1px;;
+    vertical-align: top;
+
+}
+div.hd-search .search-field{
+    vertical-align: top;
+    padding: 11px 15px;
+    margin-left: 10px;
+}
+
+/* Image Styles */
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+div.post-content {
+    margin-top: 10px;
+
+}
+
+/* Aside Style */
+article.post-aside,
+article.post-link {
+    font-size: 125%;
+    background-color: #fff5cb;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(0,0,0, .1);
+    margin-bottom: 10px;
+}
+.mini-meta{
+    font-size: 68%;
+    margin: 0px;
+    color: #777;
+
+}
+
+/* Link Post format Style */
+article.post-link{
+    padding: 0px;
+    background-color: #e0ebff;
+}
+article.post-link a {
+display: block;
+padding: 10px;
+margin-bottom: 10px;
+}
+
+/* Post Format Gallery Style  */
+article.post-gallery {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+article.post-gallery img {
+    /* outline: dashed 1px red; */
+    border: none !important;
+}
+
+article.post-gallery h2 {
+    text-align: center;
+    
+}
+.sitebar{
+
+   
+   margin-left: 20%;
+   
+
+}
+.head-banner{
+    width: 1500px;
+    height: 500px;
+    margin-left: -200px;
+}
+
+.widgettitle{
+    border-bottom: double;
+    text-align: center;
+}
+#calendar-3, #recent-posts-4, #categories-3, #meta-3
+{
+    background-color: #e0ebff;
+    padding: 2px;
+    border: double;
+    box-shadow: 5px 3px 10px;
+    width: 130%;
+    margin-bottom: 20px;
+    
+}
+.calendar_wrap{
+    margin-left: 30px;
+    letter-spacing: 2px;
+}
+
+/* Footer Style */
+#nav_menu-3, #text-4, #text-5{
+    background-color: #fff8e0;
+    padding: 2px;
+    border: double;
+    /* box-shadow: 5px 3px 10px; */
+    width: 130%;
+    margin-bottom: 20px;
+    margin: 10px;
+    
+}
+#nav_menu-3 ul li, #recent-posts-4 ul li, #categories-3 ul li, #meta-3 ul li {
+    
+   list-style: none;
+}
+.postContent {
+    
+    border: double;
+
+}
+.clickable{
+    cursor: pointer;
+}
